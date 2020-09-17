@@ -3,7 +3,7 @@ let calcularDistancia = (coordenadax, coordenaday) => {
     let cuadradox = Math.pow(coordenadax,2)
     let cuadradoy = Math.pow(coordenaday,2)
 
-    let sumaCuadrados = cuadradox + coordenaday
+    let sumaCuadrados = cuadradox + cuadradoy
 
     let raizCuadrada = Math.sqrt(sumaCuadrados)
 
